@@ -1,0 +1,31 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabel-anggota {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+.tabel-anggota th, 
+.tabel-anggota td {
+    border: 1px solid #cbd5e1;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+.tabel-anggota th {
+    background-color: #1e3c72;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.tabel-anggota tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+.tabel-anggota tbody tr:hover {
+    background-color: #f1f5f9;
+}
