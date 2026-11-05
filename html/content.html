@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Content</title>
     <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="/css/galeri.css">
+    <link rel="stylesheet" href="/css/jadwal.css">
 </head>
+
 <body>
     <h2>Selamat Datang</h2>
 
@@ -21,7 +26,12 @@
     </fieldset>
 
     <h3>Jadwal Mata Kuliah</h3>
-    
+    <div class="aksi-jadwal">
+        <a href="jadwal.html">Lihat Selengkapnya</a>
+    </div>
+
+    <h3 id="info-hari">Hari ini: <span id="nama-hari-ini">Memuat...</span></h3>
+
     <div class="tabel-responsif">
         <table class="tabel-jadwal">
             <thead>
@@ -153,5 +163,40 @@
         </table>
     </div>
 
+    <h3>Galeri Momen Kelas</h3>
+    <div class="aksi-jadwal">
+        <a href="galeri.html">Lihat Selengkapnya</a>
+    </div>
+    <p>Kumpulan kenangan dan momen seru bersama teman-teman sekelas.</p>
+
+    <div class="grid_album">
+        <div class="foto_card">
+            <a href="../image/foto1.jpeg" target="_blank">
+                <img src="../image/foto1.jpeg" alt="Momen 1">
+            </a>
+        </div>
+        
+        <div class="foto_card">
+            <a href="../image/akbar.jpeg" target="_blank">
+                <img src="../image/akbar.jpeg" alt="Momen 2">
+            </a>
+        </div>
+        
+        <div class="foto_card">
+            <a href="../image/foto2.jpeg" target="_blank">
+                <img src="../image/foto2.jpeg" alt="Momen 2">
+            </a>
+        </div>
+
+        <div class="foto_card">
+            <a href="../image/foto3.jpeg" target="_blank">
+                <img src="../image/foto3.jpeg" alt="Momen 3">
+            </a>
+        </div>
+    </div>
+
 </body>
+
+<script src="/js/content.js"></script>
+
 </html>

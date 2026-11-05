@@ -1,3 +1,5 @@
+@import url('global.css');
+
 .form-container {
     max-width: 600px;
     margin-top: 20px;
@@ -15,7 +17,7 @@
     display: block;
     margin-bottom: 6px;
     font-weight: 600;
-    color: #1e3c72;
+    color: black;
     font-size: 0.95rem;
 }
 
@@ -33,12 +35,12 @@
 
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: #1e3c72;
+    border-color: var(--warna-utama);
     box-shadow: 0 0 0 3px rgba(30, 60, 114, 0.1);
 }
 
 .btn-submit {
-    background-color: #1e3c72;
+    background-color: var(--warna-utama);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -50,5 +52,5 @@
 }
 
 .btn-submit:hover {
-    background-color: #162d57;
+    background-color: #A19C65;
 }

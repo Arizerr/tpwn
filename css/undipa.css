@@ -1,3 +1,5 @@
+@import url('global.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +29,7 @@ body {
 }
 
 .container h2 {
-    color: #1e3c72;
+    color: black;
     margin-bottom: 8px;
     font-size: 1.5rem;
 }
@@ -43,7 +45,7 @@ body {
     width: 100%;
     padding: 12px 20px;
     margin-bottom: 12px;
-    background-color: #1e3c72;
+    background-color: var(--warna-utama);
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
@@ -58,18 +60,6 @@ body {
 }
 
 .btn:hover {
-    background-color: #162d57;
+    background-color: #A19C65;
     transform: translateY(-2px);
-}
-
-.btn-web {
-    background-color: #2a5298;
-}
-
-.btn-divlearn {
-    background-color: #2a5298;
-}
-
-.btn-divlearn:hover {
-    background-color: #2a5298;
 }

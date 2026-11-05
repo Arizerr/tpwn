@@ -1,3 +1,5 @@
+@import url('global.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +8,10 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-    color: #ffffff;
+    background: linear-gradient(135deg, var(--warna-utama), #B5B8A1);
+    color: #1e293b;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
     padding: 10px 20px;
@@ -43,19 +45,20 @@ body {
     font-size: 1.6rem;
     margin-bottom: 2px;
     font-weight: 700;
+    color: #0f172a;
 }
 
 .title-box h3 {
     font-size: 1.05rem;
     font-weight: 500;
     margin-bottom: 2px;
-    color: #e2e8f0;
+    color: #334155;
 }
 
 .title-box h4 {
     font-size: 0.9rem;
     font-weight: 400;
-    color: #cbd5e1;
+    color: #475569;
 }
 
 @media (max-width: 600px) {
